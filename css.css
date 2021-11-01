@@ -23,7 +23,6 @@ a {
 	padding:2px;
 	border:1px solid #0000ff;
 	border-radius:2px;
-	radius:2px;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: 	all .4s ease-in-out;
 	-ms-transition: 	all .4s ease-in-out;
@@ -34,6 +33,9 @@ a:hover {
 	background:#0000ff;
 	color:#0099ff;
 	border:1px solid #0099ff;
+}
+.mouse{ 
+	cursor:pointer;
 }
 .game_name {
 	width:420px;
