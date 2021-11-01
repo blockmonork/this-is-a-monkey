@@ -1,0 +1,150 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: Tahoma, "Tahoma";
+}
+select, a {
+	font-family:Courier;
+}
+select {
+	padding:5px;
+	border:1px solid #C50000;
+	background:white;
+	width:222px;
+	height:37px;
+	font-weight:bold;
+	text-align:center;
+}
+a {
+	background:#0099ff;
+	color:#0000ff;
+	font-size:11px;
+	text-decoration:none;
+	padding:2px;
+	border:1px solid #0000ff;
+	border-radius:2px;
+	radius:2px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: 	all .4s ease-in-out;
+	-ms-transition: 	all .4s ease-in-out;
+	-o-transition: 		all .4s ease-in-out;
+	-transition: 		all .4s ease-in-out;
+}
+a:hover {
+	background:#0000ff;
+	color:#0099ff;
+	border:1px solid #0099ff;
+}
+.game_name {
+	width:420px;
+	height:100px;
+	background:url(imgs/game_name.png)no-repeat;
+	margin:0 auto;
+}
+.container {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.canvas {
+	width:600px;
+	height:600px;
+	border:1px solid gray;
+	position:relative;
+	top:0;
+	margin:0 auto;
+}
+.bg {
+	width:600px;
+	height:600px;
+	background:url(imgs/canvas_bg.jpg)no-repeat;
+}
+.screen_options {
+	width:222px;
+	height:37px;
+	margin:0 auto;
+}
+.menu {
+	width:600px;
+	height:50px;
+	background:url(imgs/menu_bg.jpg)no-repeat;
+}
+.menu_inner {
+	padding:2px;
+	color:#000;
+	font-size:12px;
+	color:white;
+	text-shadow:1px 1px 1px #000;
+	width:350px;
+	display:inline;
+	float:left;
+}
+.menu_inner_right {
+	width:200px;
+	display:inline;
+	float:left;
+	margin-top:5px;
+}
+.banana {
+	width:50px;
+	height:100px;
+	background:url(imgs/_ban.png)no-repeat;
+	position:relative;
+	top:-155px;
+	left:100px;
+}
+.macaco {
+	width:150px;
+	height:100px;
+	position:absolute;
+	bottom:0px;
+	left:150px;
+	background:url(imgs/_mac.png)no-repeat;
+	background-position:0px 0px;
+}
+.popup {
+	width:600px;
+	height:600px;
+	background:url(imgs/popup_bg.png)repeat;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.popup span{
+	display:block;
+	float:right;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	font-size:18px;
+	margin:10px 5px 0 0;
+}
+.popup_inner {
+	font-size:33px;
+	font-weight:bold;
+	color:white;
+	text-shadow:1px 1px 1px #000;
+	padding:5px;
+	margin:55px 0 0 55px;
+}
+.bang {
+	width:250px;
+	height:250px;
+	background:url(imgs/bang.png)no-repeat;
+	position:absolute;
+	top:100px;
+	left:100px;
+	display:none;
+}
+.z1 { z-index:1; }
+.z2 { z-index:2; }
+.z3 { z-index:3; }
+.z4 { z-index:4; }
+.z5 { z-index:5; }
+.z6 { z-index:6; }
+.z7 { z-index:7; }
+.z8 { z-index:8; }

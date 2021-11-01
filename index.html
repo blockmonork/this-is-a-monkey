@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="iso-8859-1" />
+<title>THIS is a MONKEY!</title>
+<link rel="stylesheet" href="css.css" media="all" />
+</head>
+<body>
+	
+	<div class="container z1">
+		<div id="canvas" class="canvas z2">
+			<div id="bg" class="bg z3">
+				<div class="menu z6">
+					<div id="menu_inner" class="menu_inner"></div>
+					<div id="menu_inner_right" class="menu_inner_right">
+						<a id="game_pause" href="#">Pause</a>
+						&nbsp;
+						<a id="play_again" href="#">Play Again</a>
+						&nbsp; 
+						<a id="game_reset" href="#">New</a>
+					</div>
+				</div>
+				<div id="banana" class="banana z5"></div>
+				<div id="jogador" class="macaco z4"></div>
+				<div id="popup" class="popup z8">
+					<span class="mouse" id="popup_close">&times;</span>
+					<div class="game_name"></div>
+					<div id="popup_inner" class="popup_inner"></div>
+				</div>
+				<div id="bang" class="bang z7"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="game_modules.js" type="text/javascript"></script>
+	<script src="../../loader.js" type="text/javascript"></script>
+	<script>_fLoad('default', '../../'); _fLoadOut(GameModules, GMD);</script>
+</body>
+</html>
